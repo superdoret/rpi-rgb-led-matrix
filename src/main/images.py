@@ -85,7 +85,7 @@ class Images:
             """Displays gif frames on matrix."""
             self.matrix.Clear()
             #main_directory = "../img/fun"
-            main_directory = "../img/fun/min"
+            main_directory = "../img/fun/mine"
             #files = [i for i in glob(f'{main_directory}/*/*') if os.path.isfile(i)]
             files = [i for i in glob(f'{main_directory}/*') if os.path.isfile(i)]
             random_file = choice(files)
