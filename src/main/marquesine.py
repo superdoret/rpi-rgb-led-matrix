@@ -20,8 +20,9 @@ class Marquesine():
                 if (pos + len_word < 0):
                     break
 
-                time.sleep(0.03)
+                time.sleep(0.05)
                 offscreen_canvas = self.matrix.SwapOnVSync(offscreen_canvas)
+
         except Exception as ex:
             print("Error in MArquesine: " + str(ex))
             return
